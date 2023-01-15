@@ -134,7 +134,7 @@ button:focus-visible {
 }
 
 .nav-links h3 {
-  margin-left: 45px;
+  margin-left: 60px;
 }
 
 .link:after {
@@ -144,7 +144,7 @@ button:focus-visible {
   transform: scaleX(0);
   height: 2px;
   bottom: 15px;
-  left: 30px;
+  left: 45px;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -168,7 +168,7 @@ button:focus-visible {
   transform: scaleX(0);
   height: 2px;
   bottom: 15px;
-  left: 158px;
+  left: 188px;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -191,7 +191,7 @@ button:focus-visible {
   transform: scaleX(0);
   height: 2px;
   bottom: 15px;
-  left: 258px;
+  left: 305px;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -210,11 +210,11 @@ button:focus-visible {
 .link4:after {
   content: '';
   position: absolute;
-  width: 210px;
+  width: 150px;
   transform: scaleX(0);
   height: 2px;
   bottom: 15px;
-  left: 438px;
+  left: 500px;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;

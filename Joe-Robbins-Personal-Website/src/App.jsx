@@ -1,36 +1,44 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import RecentProjects from './components/RecentProjects'
+import AboutMe from './components/AboutMe'
+import Blog from './components/Blog'
+import WorkingOn from './components/WorkingOn'
+import { useHistory } from 'react-router-dom'
+import { Switch, Route} from "react-router-dom";
+import HomePage from './components/HomePage'
 
 function App() {
-
+  
 
   return (
     <div>
-      <h1>Welcome! My name is Joe Robbins</h1>
-    <div className = "wrapper">
-    <div className = "static-txt">I'm a </div>
-    <ul className = "dynamic-txts">
-      <li><span>Developer</span></li>
-      <li><span>Scientist</span></li>
-      <li><span>Student</span></li>
-      <li><span>Dog Lover</span></li>
-    </ul>
-  </div>
-  <div className='nav-links'>
-      <div >
-        <h3 className='link'>About Me</h3>
-      </div>
-      <div >
-        <h3 className='link2'>Blog</h3>
-      </div>
-      <div >
-        <h3 className='link3'>Recent Projects</h3>
-      </div>
-      <div >
-        <h3 className='link4'>What I'm Working On</h3>
-      </div>
-    </div>
+
+
+      <Switch>
+
+      <Route exact path = '/'>
+        <HomePage />
+      </Route>
+
+      <Route exact path = '/AboutMe'>
+        <AboutMe />
+      </Route>
+
+      <Route exact path = '/Blog'>
+        <Blog />
+      </Route>
+
+      <Route exact path = '/RecentProjects'>
+        <RecentProjects />
+      </Route>
+
+      <Route exact path = '/InTheWorks'>
+        <WorkingOn />
+      </Route>
+
+      </Switch>
+    
   </div>
   )
 }
