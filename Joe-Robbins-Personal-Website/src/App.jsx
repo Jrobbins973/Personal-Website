@@ -33,8 +33,8 @@ function App() {
         <RecentProjects />
       </Route>
 
-      <Route exact path = '/InTheWorks'>
-        <WorkingOn />
+      <Route exact path = '/Resume'>
+       
       </Route>
 
       </Switch>

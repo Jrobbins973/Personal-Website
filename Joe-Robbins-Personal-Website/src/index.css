@@ -73,7 +73,7 @@ button:focus-visible {
   display: flex;
   position: relative;
   bottom: 00px;
-  left: 150px
+  left: 200px
 }
 .wrapper .static-txt{
   position: relative;
@@ -228,4 +228,9 @@ button:focus-visible {
 .link4:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.lets-connect {
+  position: relative;
+  right: 20px;
 }
