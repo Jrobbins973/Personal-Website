@@ -130,11 +130,11 @@ button:focus-visible {
 .nav-links {
   display: flex;
   position: relative;
-  left: 60px;
+  left: 10px;
 }
 
 .nav-links h3 {
-  margin-left: 60px;
+  margin-left: 150px;
 }
 
 .link:after {
@@ -144,7 +144,7 @@ button:focus-visible {
   transform: scaleX(0);
   height: 2px;
   bottom: 15px;
-  left: 45px;
+  left: 135px;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -168,7 +168,7 @@ button:focus-visible {
   transform: scaleX(0);
   height: 2px;
   bottom: 15px;
-  left: 188px;
+  left: 370px;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -191,7 +191,7 @@ button:focus-visible {
   transform: scaleX(0);
   height: 2px;
   bottom: 15px;
-  left: 305px;
+  left: 575px;
   background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -290,4 +290,50 @@ button:focus-visible {
 .blog1:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+
+.connect-icons {
+  cursor: pointer;
+  color: white;
+  transition: all 0.1s ease-out;
+}
+
+.connect-icons:hover {
+  color: #3086a8;
+}
+
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 500px;
+  background-color: #fff;
+  color: black;
+}
+
+.modal-header, .modal-footer {
+  padding: 10px;
+  color: black;
+}
+
+.modal-title {
+  margin: 0;
+  color: black;
+}
+
+.margin-body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }

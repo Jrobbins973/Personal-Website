@@ -21,9 +21,9 @@ function App() {
         <HomePage />
       </Route>
 
-      <Route exact path = '/AboutMe'>
+      {/* <Route exact path = '/AboutMe'>
         <AboutMe />
-      </Route>
+      </Route> */}
 
       <Route exact path = '/Blog'>
         <Blog />
