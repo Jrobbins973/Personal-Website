@@ -1,14 +1,24 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 
-function AboutMe() {
+function AboutMe(props) {
+    const {setShowModal} = props
     const history = useHistory()
 
 
     return (
-        <div>
-            <button onClick={() => history.push("/")}>Back</button>
-            <h1>About Me</h1>
+        <div className='modal' onClick={() => setShowModal(false)}>
+            <div className='modal-content' onClick={e => e.stopPropagation()}>
+                <div className='modal-header'>
+                    <h4 className='modal-title'>Modal Title</h4>
+                </div>
+                <div className='modal-body'>
+                    Modal Content
+                </div>
+                <div className='modal-footer'>
+                    <button onClick={() => setShowModal(false)}>Close</button>
+                </div>
+            </div>
         </div>
     )
 }
