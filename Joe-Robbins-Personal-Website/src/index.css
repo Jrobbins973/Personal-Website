@@ -233,4 +233,61 @@ button:focus-visible {
 .lets-connect {
   position: relative;
   right: 20px;
+
+}
+
+.lets-connect p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.blog-header {
+  display: flex;
+  position: relative;
+  bottom: 250px;
+  left: 42%;
+  width: 250px;
+  border-bottom: 2px solid white;
+
+}
+
+.blog-posts {
+  display: flex;
+  width: 1000px;
+}
+
+.blog-description {
+  display: flex;
+  position: relative;
+  top: -10px;
+}
+
+.blog1 {
+  color:white;
+  position: relative;
+  display: flex;
+  right: 120px;
+}
+
+.blog1:after {
+  content: '';
+  position: absolute;
+  width: 380px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 4px;
+  left: 270px;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.blog1:hover {
+  cursor: pointer;
+  color: #3086a8;
+}
+
+.blog1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
