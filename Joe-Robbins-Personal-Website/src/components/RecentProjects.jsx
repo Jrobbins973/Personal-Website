@@ -9,8 +9,9 @@ function RecentProjects() {
     return (
         <div>
 
-        <h1>My Projects</h1>
+        <h1>My Portfolio</h1>
         
+
         <div className='grid-container'>
             {renderProjectDetails}
         </div>

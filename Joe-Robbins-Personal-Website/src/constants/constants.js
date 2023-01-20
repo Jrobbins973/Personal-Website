@@ -2,10 +2,11 @@ export const projects = [
     {
       title: 'YourFitnessFriend',
       description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it",
-        image: 'https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png',
+        image: 'https://i.imgur.com/r80auoK.png',
         tags: ['Mongo', 'Express', 'React', 'Node'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
+      source: 'https://github.com/Jrobbins973/Exercise-api',
+      video: 'https://www.youtube.com/watch?v=N-IjnXJAWWA',
+      technology: 'JavaScript, HTML/CSS',
       id: 0,
     },
     {
@@ -13,8 +14,8 @@ export const projects = [
       description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video",
       image: 'https://imgur.com/r80auoK',
       tags: ['React', 'JavaScript'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
+      source: 'https://github.com/Jrobbins973/Phase-2-Project',
+      video: 'https://www.youtube.com/watch?v=xLumepkzLEM',
       id: 1,
     },
     {
@@ -23,7 +24,7 @@ export const projects = [
       image: 'https://imgur.com/r80auoK',
         tags: ['React', 'WebRTC'],
       source: 'https://google.com',
-      visit: 'https://google.com',
+      video: 'https://google.com',
       id: 2,
     },
     {
@@ -32,7 +33,7 @@ export const projects = [
       image: 'https://imgur.com/r80auoK',
       tags: ['React', 'ChatEngine', 'Firebase'],
       source: 'https://google.com',
-      visit: 'https://google.com',
+      video: 'https://google.com',
       id: 3,
     },
     {
@@ -41,7 +42,7 @@ export const projects = [
       image: 'https://imgur.com/r80auoK',
       tags: ['React', 'ChatEngine', 'Firebase'],
       source: 'https://google.com',
-      visit: 'https://google.com',
+      video: 'https://google.com',
       id: 4,
     }
   ];
