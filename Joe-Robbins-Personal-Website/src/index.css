@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000220;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -73,7 +73,7 @@ button:focus-visible {
   display: flex;
   position: relative;
   bottom: 00px;
-  left: 200px
+  left: 220px
 }
 .wrapper .static-txt{
   position: relative;
@@ -336,4 +336,34 @@ button:focus-visible {
   padding: 10px;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+}
+
+.grid-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  margin: auto;
+  grid-gap: 50px
+}
+
+.grid-items {
+  display: block;
+  margin-left: 20px;
+  border: 2px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+.grid-items h2 {
+  border-bottom: 3px solid white;;
+}
+
+.grid-items h4 {
+  display: block;
+  position: relative;
+  width: 400px;
+  height: 100px;
+  /* overflow: scroll; */
 }

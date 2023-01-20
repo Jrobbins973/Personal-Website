@@ -16,7 +16,7 @@ function HomePage() {
     return (
 <div>
         <h1>Welcome! My name is Joe Robbins</h1>
-        <h3 style={{width: '890px'}}>I'm a Software Engineering Bootcamp graduate looking to start a career in Software Development. </h3>
+        <h3 style={{width: '890px'}}>I'm a Software Engineering Bootcamp graduate who is excited to start a career in Software Development. </h3>
         <div className = "wrapper">
         <div className = "static-txt">    </div>
         <ul className = "dynamic-txts">
@@ -50,6 +50,7 @@ function HomePage() {
             <br></br>
             <br></br>
             <p >Let's Connect!</p>
+            <p style={{fontSize: '14px'}}>joe.robbins.swe@gmail.com</p>
             <a className='connect-icons' href='https://www.linkedin.com/in/joe-robbins-swe/' target="_blank"><  FaLinkedin size={35}/></a>
             <a className='connect-icons'  href='https://github.com/Jrobbins973' target="_blank"><  FaGithub size={35}/></a>
             <a className='connect-icons'  href='https://medium.com/@joe.robbins.cpt' target="_blank"><  FaMedium size={35}/></a>
