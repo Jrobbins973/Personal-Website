@@ -26,6 +26,7 @@ export const projects = [
         tags: ['React', 'WebRTC'],
       source: 'https://google.com',
       video: 'https://google.com',
+      technology: 'React, Sinatra/Active Record, CSS, SemanticUI',
       id: 2,
     },
     {
@@ -35,6 +36,7 @@ export const projects = [
       tags: ['React', 'ChatEngine', 'Firebase'],
       source: 'https://google.com',
       video: 'https://google.com',
+      technology: 'React, Ruby on Rails, CSS',
       id: 3,
     },
     {
@@ -44,6 +46,7 @@ export const projects = [
       tags: ['React', 'ChatEngine', 'Firebase'],
       source: 'https://google.com',
       video: 'https://google.com',
+      technology: 'React, Ruby on Rails, PostgreSQL, CSS',
       id: 4,
     }
   ];
