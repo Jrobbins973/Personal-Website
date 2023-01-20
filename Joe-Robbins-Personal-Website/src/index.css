@@ -345,7 +345,7 @@ button:focus-visible {
   grid-template-rows: repeat(2, 250px);
   margin: auto;
   grid-gap: 100px;
-  grid-row-gap: 300px
+  grid-row-gap: 350px
 }
 
 .grid-items {
@@ -375,9 +375,22 @@ button:focus-visible {
 .grid-items img {
   width: 400px;
   height: 200px;
+  border-radius: 20px;
 }
 
 .grid-items button {
   margin-bottom: 20px;
   margin-left: 10px;
+}
+
+.project-description {
+  /* border: 1px solid white; */
+  overflow: scroll;
+  
+
+
+}
+
+.project-description::-webkit-scrollbar {
+  display: none;
 }

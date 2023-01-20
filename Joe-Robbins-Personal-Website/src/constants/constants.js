@@ -1,7 +1,7 @@
 export const projects = [
     {
       title: 'YourFitnessFriend',
-      description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it",
+      description: "This was my very first web application! Created during phase 1 of my bootcamp using vanilla JS and CSS. I thought about refactoring this and fully updating it, but I like being able to look back and see where I started.",
         image: 'https://i.imgur.com/r80auoK.png',
         tags: ['Mongo', 'Express', 'React', 'Node'],
       source: 'https://github.com/Jrobbins973/Exercise-api',
@@ -12,16 +12,17 @@ export const projects = [
     {
       title: 'Pro-active',
       description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video",
-      image: 'https://imgur.com/r80auoK',
+      image: 'https://i.imgur.com/hy1sasZ.png',
       tags: ['React', 'JavaScript'],
       source: 'https://github.com/Jrobbins973/Phase-2-Project',
       video: 'https://www.youtube.com/watch?v=xLumepkzLEM',
+      technology: "React, SemanticUI, CSS",
       id: 1,
     },
     {
       title: 'MovieBuddy',
       description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: 'https://imgur.com/r80auoK',
+      image: 'https://i.imgur.com/4ttIp9o.jpg',
         tags: ['React', 'WebRTC'],
       source: 'https://google.com',
       video: 'https://google.com',
@@ -30,7 +31,7 @@ export const projects = [
     {
       title: 'Reactr',
       description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-      image: 'https://imgur.com/r80auoK',
+      image: 'https://i.imgur.com/RAuy4FJ.png',
       tags: ['React', 'ChatEngine', 'Firebase'],
       source: 'https://google.com',
       video: 'https://google.com',
@@ -39,7 +40,7 @@ export const projects = [
     {
       title: 'ApartmentConnect',
       description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-      image: 'https://imgur.com/r80auoK',
+      image: 'https://i.imgur.com/K6EavPu.png',
       tags: ['React', 'ChatEngine', 'Firebase'],
       source: 'https://google.com',
       video: 'https://google.com',
