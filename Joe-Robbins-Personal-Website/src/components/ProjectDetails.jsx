@@ -22,7 +22,7 @@ function ProjectDetails(props) {
             </div>
 
                 <p><strong>Technology:</strong> {project.technology}</p>
-                <button onClick={() => newTab('https://www.youtube.com/watch?v=N-IjnXJAWWA')}>Video</button>
+                <button onClick={() => newTab(project.video)}>Video</button>
                 <button onClick={() => newTab('https://github.com/Jrobbins973/Exercise-api')}>GitHub</button>
             </div>
             

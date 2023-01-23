@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import RecentProjects from './components/RecentProjects'
-import AboutMe from './components/AboutMe'
+import AboutMeModal from './components/AboutMeModal'
 import Blog from './components/Blog'
-import WorkingOn from './components/WorkingOn'
+import AboutMePage from './components/AboutMePage'
 import { useHistory } from 'react-router-dom'
 import { Switch, Route} from "react-router-dom";
 import HomePage from './components/HomePage'
@@ -21,9 +21,9 @@ function App() {
         <HomePage />
       </Route>
 
-      {/* <Route exact path = '/AboutMe'>
-        <AboutMe />
-      </Route> */}
+      <Route exact path = '/AboutMe'>
+        <AboutMePage />
+      </Route>
 
       <Route exact path = '/Blog'>
         <Blog />

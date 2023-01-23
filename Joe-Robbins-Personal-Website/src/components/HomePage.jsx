@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { useHistory } from 'react-router-dom'
 import { Switch, Route} from "react-router-dom";
 import { FaLinkedin, FaGithub, FaMedium } from "react-icons/fa";
-import AboutMe from './AboutMe';
+import AboutMeModal from './AboutMeModal';
 
 function HomePage() {
     const openInNewTab = (url) => {
@@ -31,7 +31,7 @@ function HomePage() {
                 <h3 onClick={() => setShowModal(true)}  className='link'>About Me</h3>
             </div>
 
-            {showModal ? <AboutMe setShowModal={setShowModal}/> : null}
+            {showModal ? <AboutMeModal setShowModal={setShowModal}/> : null}
 
             <div >
                 <h3 onClick={() => openInNewTab('https://medium.com/@joe.robbins.cpt')} className='link2'>Blog</h3>
